@@ -8,7 +8,8 @@ class PDFCombinerApp:
     def __init__(self):
         self.window = ctk.CTk()
         self.window.title("PDF Combiner")
-        self.window.geometry("600x500")
+        self.window.geometry("800x500")
+        self.window.resizable(False, False)  # Prevent window resizing
         
         # Set initial theme
         self.is_dark_mode = True
@@ -220,4 +221,4 @@ class PDFCombinerApp:
 
 if __name__ == "__main__":
     app = PDFCombinerApp()
-    app.run() 
+    app.run()
