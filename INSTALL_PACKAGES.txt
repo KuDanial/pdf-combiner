@@ -1,0 +1,37 @@
+PDF Combiner Package Installation Instructions
+===========================================
+
+To use the PDF combiner functionality, you need to install the PyPDF2 package. Here are the installation instructions:
+
+1. Using pip (recommended):
+   ```
+   pip install PyPDF2==3.0.1
+   ```
+
+2. If you're using a requirements.txt file, you can add this line:
+   ```
+   PyPDF2==3.0.1
+   ```
+   And then run:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. If you encounter any permission issues, you might need to use:
+   ```
+   pip install --user PyPDF2==3.0.1
+   ```
+
+4. For Windows users, if pip is not recognized, you might need to:
+   - Open Command Prompt as Administrator
+   - Use the full path to pip:
+     ```
+     python -m pip install PyPDF2==3.0.1
+     ```
+
+Note: Make sure you have Python 3.7 or higher installed on your system.
+
+Troubleshooting:
+- If you get a "pip not found" error, make sure Python is properly installed and added to your system's PATH
+- If you get permission errors, try running the command prompt or terminal as administrator
+- If you have multiple Python versions installed, make sure you're using the correct pip version for your Python installation 
